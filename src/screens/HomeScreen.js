@@ -15,6 +15,7 @@ const HomeScreen = ({ navigation }) => {
       title="Go to components demo?"
     />
 
+
     <Button
       onPress={
         () => {
@@ -22,6 +23,14 @@ const HomeScreen = ({ navigation }) => {
         }
       }
       title="Go to components demo"
+    />
+    <Button
+      onPress={
+        () => {
+          navigation.navigate('Squares')
+        }
+      }
+      title="Show SquareScreen"
     />
     <Button
       onPress={
@@ -38,6 +47,15 @@ const HomeScreen = ({ navigation }) => {
         }
       }
       title="Go to CounterScreen"
+    />
+
+    <Button
+      onPress={
+        () => {
+          navigation.navigate('Colors')
+        }
+      }
+      title="Go to Colors"
     />
 
 

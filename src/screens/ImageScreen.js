@@ -34,11 +34,5 @@ const ImageScreen = () => {
   </View>
 };
 
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 30
-  },
-
-});
 
 export default ImageScreen;

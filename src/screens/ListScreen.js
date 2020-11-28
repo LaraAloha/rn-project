@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, FlatList, View, StyleSheet } from "react-native";
+import { Text, FlatList, StyleSheet } from "react-native";
 
 const ListScreen = () => {
 
